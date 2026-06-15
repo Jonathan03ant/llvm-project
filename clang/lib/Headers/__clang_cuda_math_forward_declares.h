@@ -94,7 +94,7 @@ __DEVICE__ bool isfinite(long double);
 #endif
 __DEVICE__ bool isfinite(double);
 __DEVICE__ bool isfinite(float);
-#if !defined(_MSC_VER) || _MSC_VER < 1451
+#if !defined(_MSC_VER) || _MSC_VER < 1951
 __DEVICE__ bool isgreater(double, double);
 __DEVICE__ bool isgreaterequal(double, double);
 __DEVICE__ bool isgreaterequal(float, float);
@@ -105,7 +105,7 @@ __DEVICE__ bool isinf(long double);
 #endif
 __DEVICE__ bool isinf(double);
 __DEVICE__ bool isinf(float);
-#if !defined(_MSC_VER) || _MSC_VER < 1451
+#if !defined(_MSC_VER) || _MSC_VER < 1951
 __DEVICE__ bool isless(double, double);
 __DEVICE__ bool islessequal(double, double);
 __DEVICE__ bool islessequal(float, float);
@@ -120,7 +120,7 @@ __DEVICE__ bool isnan(double);
 __DEVICE__ bool isnan(float);
 __DEVICE__ bool isnormal(double);
 __DEVICE__ bool isnormal(float);
-#if !defined(_MSC_VER) || _MSC_VER < 1451
+#if !defined(_MSC_VER) || _MSC_VER < 1951
 __DEVICE__ bool isunordered(double, double);
 __DEVICE__ bool isunordered(float, float);
 #endif
